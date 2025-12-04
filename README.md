@@ -1,16 +1,124 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+⭐ Health & Fitness Tracker 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A clean, modern, medical-themed **Health & Fitness Tracker Web App** built using **React + Vite + Tailwind CSS**.
+This project helps users monitor their **health and daily activities** using a premium UI and OOP-based data models.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 **Features**
 
-## Expanding the ESLint configuration
+* 🏠 **Dashboard** with steps, water intake, sleep hours, calories, BMI, heart rate & daily tip
+* ⚖️ **BMI Calculator** with category & suggestions
+* 🍎 **Calorie Tracker** with daily goals
+* 💧 **Water Intake Tracker** with progress bar
+* 😴 **Sleep Monitor** with automatic sleep hours calculation
+* 🏃 **Exercise Log** with calorie burn estimation
+* ❤️ **Heart Rate Input** with status check
+* 🩺 **Symptom Checker** (simple & safe)
+* 👤 **User Profile** (name, age, weight, height)
+* 📊 **Weekly Activity Graphs** using Recharts
+* 🌙 **Dark Mode** toggle
+* 🧠 **OOP Concepts:** Classes, Objects, Inheritance, Encapsulation, Polymorphism
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 **Tech Stack**
+
+* React + Vite ⚡
+* Tailwind CSS 🎨
+* Recharts 📊
+* LocalStorage for saving user data 💾
+
+---
+
+# 🛠️ **Installation & Setup**
+
+Follow these steps to run the project on your system:
+
+---
+
+## 📥 **1. Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
+
+---
+
+## 📂 **2. Navigate Into the Project Folder**
+
+```bash
+cd your-repo-name
+```
+
+---
+
+## 📦 **3. Install Dependencies**
+
+```bash
+npm install
+```
+
+This installs all required packages.
+
+---
+
+## ▶️ **4. Run the Development Server**
+
+```bash
+npm run dev
+```
+
+Your app will start on:
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 🏗️ **5. Build for Production**
+
+```bash
+npm run build
+```
+
+---
+
+## 🔍 **6. Preview Production Build**
+
+```bash
+npm run preview
+```
+
+---
+
+# 📌 **Project Structure**
+
+```
+src/
+ ├── components/
+ ├── pages/
+ ├── models/        ← OOP classes (BMI, Tracker, UserProfile etc.)
+ ├── utils/
+ ├── App.jsx
+ └── main.jsx
+```
+
+---
+
+# 🤝 **Contributing**
+
+Feel free to fork the project and submit pull requests!
+
+---
+
+# 📜 **License**
+
+This project is for educational and academic purposes.
+
+---
+
+
